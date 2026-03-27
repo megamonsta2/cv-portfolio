@@ -1,0 +1,48 @@
+# Search in SQL using substring
+https://www.freecodecamp.org/news/sql-where-contains-string-substring-query-example/
+
+# Search in SQL using subquery
+https://stackoverflow.com/questions/43285066/sql-return-all-rows-for-id-where-one-row-meets-condition-a-b-or-c
+
+# Get POST body
+https://stackoverflow.com/questions/11625519/how-to-access-the-request-body-when-posting-using-node-js-and-express
+
+# Check if field is one of many
+http://stackoverflow.com/questions/10012695/sql-statement-using-where-clause-with-multiple-values
+
+# Tables
+https://www.w3schools.com/html/html_tables.asp
+
+# Get JS filename
+https://www.geeksforgeeks.org/javascript/how-to-get-the-file-name-from-page-url-using-javascript/
+
+# Cut off last 5 chars of str
+https://stackoverflow.com/questions/952924/how-do-i-chop-slice-trim-off-last-character-in-string-using-javascript
+
+# CORS
+https://expressjs.com/en/resources/middleware/cors.html
+
+# Table Borders
+https://www.w3schools.com/html/html_table_borders.asp
+
+# Form Submission
+https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/submit_event
+
+# Delete Rows
+https://stackoverflow.com/questions/16270087/delete-all-rows-on-a-table-except-first-with-javascript
+
+# Query Strings
+https://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript
+
+# Custom HTML Element (Topbars and Session Info)
+https://www.youtube.com/watch?v=AiQqip_pVbA
+
+# Align register/login
+https://www.geeksforgeeks.org/html/how-to-align-input-forms-in-html/ - Inputs next to each other
+https://stackoverflow.com/questions/53392965/set-two-flex-items-side-by-side-in-a-flexbox-column - Register and Login side by side
+
+# Sessions
+https://www.youtube.com/watch?v=RxUc6ZWwgfw
+
+# Data List
+https://www.w3schools.com/html/tryit.asp?filename=tryhtml_elem_datalist
