@@ -26,7 +26,7 @@ const funcs: Record<string, () => unknown> = {
     accounts,
     editcv,
 };
-const url = "http://localhost:3000";
+const url = "http://127.0.0.1:7003";
 
 class Topbar extends HTMLElement {
     connectedCallback() {
