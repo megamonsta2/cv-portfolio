@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Edit CV</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <script src="../dist/index.js"></script>
+    </head>
+    <body>
+        <top-bar></top-bar>
+        <session-info></session-info>
+
+        <h1>Edit CV</h1>
+        <div id="edit-cv-logged-in">
+            <form id="edit-cv-about-me">
+                <h3>About Me</h3>
+                <div id="edit-cv-about-me-display"></div>
+                <input id="edit-cv-about-me-input" type="text" placeholder="" />
+                <input type="submit" value="Update" />
+            </form>
+            <form id="edit-cv-education">
+                <h3>Education</h3>
+                <div id="edit-cv-education-display"></div>
+                <input
+                    id="edit-cv-education-input"
+                    type="text"
+                    placeholder=""
+                />
+                <input type="submit" value="Update" />
+            </form>
+            <form id="edit-cv-langs">
+                <h3>Programming Languages</h3>
+                <table id="edit-cv-langs-display"></table>
+                <input id="edit-cv-langs-input" type="text" placeholder="" />
+                <input type="submit" value="Add" />
+            </form>
+            <form id="edit-cv-links">
+                <h3>Links</h3>
+                <table id="edit-cv-links-display"></table>
+                <input id="edit-cv-links-input" type="text" placeholder="" />
+                <select id="edit-cv-links-type-input">
+                    <option value="">--Choose an option--</option>
+                    <option value="linkedin">Linkedin</option>
+                    <option value="x">X</option>
+                    <option value="instagram">Instagram</option>
+                    <option value="youtube">Youtube</option>
+                </select>
+                <input type="submit" value="Add" />
+            </form>
+        </div>
+        <div id="edit-cv-not-logged-in">Login to use this page!</div>
+    </body>
+</html>

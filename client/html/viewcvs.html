@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+    <head>
+        <title>View CVs</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <script src="../dist/index.js"></script>
+    </head>
+    <body>
+        <top-bar></top-bar>
+        <session-info></session-info>
+
+        <h1>View CVs</h1>
+        <form id="search">
+            <input
+                id="name-search-input"
+                type="text"
+                placeholder="Name Search"
+            /><br />
+            <input
+                id="lang-search-input"
+                type="text"
+                placeholder="Language Search"
+            /><br />
+            <input
+                id="search-submit"
+                type="submit"
+                placeholder="Language Search"
+            />
+            <br />
+            <div id="search-display"></div>
+        </form>
+        <br />
+        <table id="cv-list">
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Languages</th>
+            </tr>
+        </table>
+    </body>
+</html>

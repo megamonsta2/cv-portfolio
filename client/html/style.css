@@ -1,0 +1,54 @@
+html {
+    color-scheme: light dark;
+}
+body {
+    width: 50em;
+    margin: 0 auto;
+    font-family: Tahoma, Verdana, Arial, sans-serif;
+}
+
+#cv-list,
+#cv-list th,
+#cv-list td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+#search {
+    width: 50%;
+}
+
+#topbar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #333333;
+    padding: 8px;
+}
+#session-info {
+    margin-left: auto;
+    width: 30%;
+    background-color: #333333;
+    padding: 12px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.form-group label {
+    width: 80px;
+    font-size: 16px;
+}
+#edit-cv .form-group label {
+    width: 150px;
+}
+
+.account-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.account-group div {
+    flex-basis: 100%;
+}
