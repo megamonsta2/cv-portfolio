@@ -219,6 +219,7 @@ async function SetupRegister() {
             emailInput.value,
             passwordInput.value,
         ];
+        [nameInput.value, emailInput.value, passwordInput.value] = ["", "", ""];
         const result = await GetData<SessionData>("register", "POST", {
             name,
             email,
@@ -247,6 +248,7 @@ async function SetupLogin() {
             return (display.innerHTML = "You are already logged in!");
 
         const [email, password] = [emailInput.value, passwordInput.value];
+        [emailInput.value, passwordInput.value] = ["", ""];
         const result = await GetData<SessionData>("login", "POST", {
             email,
             password,
