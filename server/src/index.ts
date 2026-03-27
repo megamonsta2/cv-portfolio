@@ -7,7 +7,7 @@ import updateRouter from "./routes/update.js";
 import { deleteSession, getSession, setSession } from "./sessions.js";
 
 const app = express();
-const port = 7003;
+const port = 7004;
 
 function main() {
     app.use(cors());
